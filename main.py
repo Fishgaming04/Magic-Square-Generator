@@ -5,7 +5,7 @@ print('\n'*100)
 
 while True:
     try:
-        size = int(input('How big would you like the magic square to be?   '))
+        size = int(input('How big would you like the magic square to be: '))
     except ValueError:
         print('\n     Invalid, please provide a number larger than 3\n')
         sleep(1.5)
